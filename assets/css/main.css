@@ -12,6 +12,7 @@
 }
   
 
+
 body{
     background-color: var(--gray1);
     font-family: "Montserrat";
@@ -22,6 +23,16 @@ ul{
     padding: 0;
     margin: 0;
 }
+hr{
+    border: 1px solid var(--gray2) !important;
+    background-color: var(--gray2) !important;
+    width: 20% !important;
+    margin: 0 auto !important;
+    opacity: 1;
+}
+
+
+
 .back{
     background-color: var(--gray1);
 }
@@ -31,19 +42,16 @@ ul{
 }
 .puesto{
     color: var(--gray2);    
-    font-size: 24px;
-}
-hr{
-    border: 1px solid var(--gray2) !important;
-    background-color: var(--gray2) !important;
-    width: 20% !important;
-    margin: 0 auto !important;
-    opacity: 1;
+    font-size: 20px;
 }
 .desc{
     color: var(--white);
 }
 
+.contactame{
+    font-size: 30px;
+    color: var(--gray2);
+}
 .contacto-icons a{
     background-color: var(--gray3);    
     height: 50px;
@@ -86,11 +94,11 @@ hr{
 /* Particles */
 .particles-js-canvas-el {
     width: 100% !important;
-    /* max-width: 100% !important; */
+    max-width: 100% !important;
     height: 100% !important;
     position: fixed;
     z-index: -1 !important;
-    top: -600px !important;
+    top: 0 !important;
     left: 0 !important;
     right: 0 !important;
 }
